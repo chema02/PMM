@@ -1,0 +1,19 @@
+{
+  "name": "dom",
+  "version": "0.0.1",
+  "description": "aplicación asistente",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chema02/PMM.git"
+  },
+  "author": "José María Morales Email: jomoro01@floridauniversitaria.es",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chema02/PMM/issues"
+  },
+  "homepage": "https://github.com/chema02/PMM#readme"
+}
