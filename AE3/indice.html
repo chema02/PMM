@@ -10,15 +10,15 @@
 </head>
 <body>
 	<header id="cabecera">
-		<nav id="menu">
-			<ul>
-			  <button id="1"><a href="1">Continuar</a></button>
-			  <button id="2"><a href="2">Atras</a></button>
-			</ul>
-		  </nav>
+		<div id="menu">
+	
+		<button id="1" style="float: right;"><a>Continuar</a></button>
+		<button id="2"><a>Atras</a></button>
+		
+		</div>
 	</header>
-	<div class="paso inicial">
-		<h1>Paso inicial</h1>
+	<div id='paso1' class="paso-inicial">
+		<h1>Paso inicial <br><br></h1>
 		<p>Estamos en el paso inicial para pasar al paso 2 haga click en continual.<br></p>
 		<p>En el paso 2 rellene los campos requeridos para seguir al paso 3 click en continuar.<br></p>
 		<p>En el paso 3 lea atentamente los y haga click en Aceptar si esta conforme o haga click en el boton atras para rechazar.<br></p>
@@ -27,7 +27,7 @@
 
 	</div>
 
-	<form name="formulario" method="POST" action="main.js" class="form-container">
+	<form id='paso2' name="formulario" method="POST" action="main.js" class="form-container">
 		<p>Nombre: <input type="text" name="nombre" required placeholder="nombre"></p>
 		<p>Apellidos: <input type="text" name="apellidos" required placeholder="apellidos"></p>
 		<p>Fecha: <input type="date" name="fecha" required placeholder="fecha"></p>
@@ -46,7 +46,10 @@
 		  <p>Municipio: <input type="text" id="campo" name="municipio" onkeyup="mayus(this);" required placeholder="municipio"></p>  
 	
 	</form>
-	<div class="paso 4">
+	<div id='paso3'>
+		<button>Aceptar</button>
+	</div>
+	<div id='paso4' class="paso 4">
 		<h2>Se ha completado correctamente.<br></h2>
 		<br>
 		<p>GRACIAS POR SU COLABORACIÓN.<br></p>
